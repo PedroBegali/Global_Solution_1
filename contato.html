@@ -4,58 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
     <title>Document</title>
 </head>
-<body>
-    <header>
-        <section class="logoCompleto">
-            <img src="img/Logo.png" alt="Logo da Futuriza">
-            <div class="linkHome"><a href="index.html"><h1>FUTURIZA</h1></a></div>
-        </section>
-        <nav>
-            <a href="sobre.html">Projeto</a>
-            <a href="integrantes.html">Equipe</a>
-            <a href="faq.html">FAQ</a>
-            <a href="contato.html">Fale conosco</a>
-            <a href="futuriza.html">Serviços</a>
-            <a href="login.html">Login</a>
-        </nav>
-    </header>
-    <main class="mainContato">
-        <img src="img/fundoTechHome.avif" alt="Polígonos Azul e Roxo">
+    <body>
+        <header>
+            <section class="logoCompleto">
+                <img src="assets/img/Logo.png" alt="Logo da Futuriza">
+                <div class="linkHome"><a href="index.html"><h1>FUTURIZA</h1></a></div>
+            </section>
+            <nav>
+                <a href="sobre.html">Projeto</a>
+                <a href="integrantes.html">Equipe</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contato.html">Fale conosco</a>
+                <a href="futuriza.html">Serviços</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </header>
 
-    <section class="contato">
+        <main class="mainContato">
+            <img src="assets/img/fundoTechHome.avif" alt="Polígonos Azul e Roxo">
 
-        <div class="tituloContato"><h1>Fale Conosco</h1></div>
+            <section class="contato">
 
-        <form class="formulario-futuriza" aria-labelledby="form-title">
-            <fieldset>
-                <legend id="form-title">Informações de Contato</legend>
-                
-                <div class="campo">
-                    <label for="nome">Nome completo:*</label>
-                    <input type="text" name="nome" id="nome" required placeholder="Seu nome completo">
-                </div>
+                <div class="tituloContato"><h1>Fale Conosco</h1></div>
 
-                <div class="campo">
-                    <label for="email">Email:*</label>
-                    <input type="email" name="email" id="email" required placeholder="seu.email@exemplo.com">
-                </div>
+                <form class="formulario-futuriza" aria-labelledby="form-title">
+                    <fieldset>
+                        <legend id="form-title">Informações de Contato</legend>
+                        
+                        <div class="campo">
+                            <label for="nome">Nome completo:*</label>
+                            <input type="text" name="nome" id="nome" required placeholder="Seu nome completo">
+                        </div>
 
-                <div class="campo">
-                    <label for="txtTel">Telefone:</label>
-                    <input type="tel" name="txtTel" id="txtTel" placeholder="(XX) XXXXX-XXXX">
-                </div>
-            </fieldset>
+                        <div class="campo">
+                            <label for="email">Email:*</label>
+                            <input type="email" name="email" id="email" required placeholder="seu.email@exemplo.com">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="txtTel">Telefone:</label>
+                            <input type="tel" name="txtTel" id="txtTel" placeholder="(XX) XXXXX-XXXX">
+                        </div>
+                    </fieldset>
 
-            <div class="campo">
-                <label for="mensagem">Mensagem:*</label>
-                <textarea name="mensagem" rows="5" id="mensagem" required placeholder="Escreva sua mensagem aqui..."></textarea>
-            </div>
+                    <div class="campo">
+                        <label for="mensagem">Mensagem:*</label>
+                        <textarea name="mensagem" rows="5" id="mensagem" required placeholder="Escreva sua mensagem aqui..."></textarea>
+                    </div>
 
-            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
-        </form>
-    </section>
-</main>
-</body>
+                    <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                </form>
+            </section>
+        </main>
+    </body>
 </html>

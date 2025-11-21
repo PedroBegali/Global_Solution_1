@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <section class="logoCompleto">
-            <img src="img/Logo.png" alt="Logo da Futuriza">
+            <img src="assets/img/Logo.png" alt="Logo da Futuriza">
             <div class="linkHome"><a href="index.html"><h1>FUTURIZA</h1></a></div>
         </section>
         <nav>
@@ -21,5 +23,42 @@
             <a href="login.html">Login</a>
         </nav>
     </header>
+    <main class="mainLogin">
+    <section>
+        <h1>Seja Bem Vindo!</h1>
+        <h2>Entre e começe a mudança para o futuro já.</h2>
+        <img src="assets/img/fundoLogin.avif" alt="Imagem tecnológica roxa">
+    </section>
+
+    <section class="login-container">
+        <div class="login-header">
+            <h2 class="login-titulo">Faça seu Login</h2>
+            <div class="ligar-buttons">
+                <button id="ligarEmpresarial" class="ativo">Empresarial</button>
+                <button id="ligarParticular">Particular</button>
+            </div>
+        </div>
+
+        <form id="loginForm" class="login-form">
+            <div class="entradaDados">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="entradaDados">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="********" required>
+            </div>
+            
+            <p class="esqueceuSenha"><a href="#">Esqueceu a senha?</a></p>
+
+            <button type="submit" class="login-button">Entrar</button>
+
+            <p class="linkCadastro">Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </form>
+    </section>
+    </main>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
