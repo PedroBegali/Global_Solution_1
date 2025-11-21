@@ -675,13 +675,16 @@ section h2 {
     text-align: center;
     overflow: hidden;
 }
+.linkHome a{
+    text-decoration: none;  
+}
+.logoCompleto {
+    display: flex;
+    align-items: center;
+}
 
-.mainLogin section:first-child h1 {
-    font-size: 2.5em;
-    font-weight: 800;
-    margin-bottom: 5px;
-    line-height: 1.2;
-    color: #ffffff;
+.logoCompleto img {
+    width: 13%;
 }
 
 .mainLogin section:first-child h2 {
@@ -797,108 +800,68 @@ section h2 {
 
 .login-button {
     width: 100%;
-    padding: 15px;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1em;
-    font-weight: 700;
-    color: #ffffff;
-    background: linear-gradient(90deg, #8A2BE2 0%, #C042F3 100%);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 20px rgba(138, 43, 226, 0.4);
 }
 
-.login-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0, 206, 209, 0.6);
-    background: linear-gradient(90deg, #9932CC 0%, #00BFFF 100%);
+
+
+
+
+.container-imagem{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    gap: 30px;
+    padding: 0 20px;
+}
+.fotoIlda, .fotoPedro, .fotoLucas {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 4px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.linkCadastro {
-    margin-top: 25px;
-    font-size: 0.9em;
-    color: #666;
+.pessoasDaOng, .turmaDoBem, .roadMap, .fotoIlda, .fotoPedro, .fotoLucas {
+    float: none; 
+    margin: auto;
 }
 
-.linkCadastro a {
-    color: #00CED1;
-    text-decoration: none;
-    font-weight: 600;
-}
-/* ======================= LOGIN ============================== */
-/* ======================= SOBRE ============================== */
 
-.mainSobre {
-    background-color: #e9ecef;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 20px 0;
-    min-height: 100vh;
+.container-imagem {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 50px auto 0 auto;
+    max-width: 800px;
 }
 
-.articleSobre {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 40px 40px 50px 40px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-}
-
-.articleSobre h2 {
-    color: #8A2BE2;
-    font-size: 2em;
-    font-weight: 700;
-    padding-top: 0;
-    margin-bottom: 30px;
+.container-imagem > div {
     text-align: center;
+    max-width: 250px;
+    width: 50%;
+    box-sizing: border-box; 
+    padding: 0 10px;
+    margin-bottom: 30px; 
+}
+.container-imagem > div:last-child {
+    width: 100%; 
+    max-width: 500px;
 }
 
-.descritivo {
-    max-width: 100%;
-    margin: 0 auto;
-}
 
-.descritivo p {
-    font-size: 1.1em;
-    font-weight: 400;
-    color: #555555;
-    line-height: 1.8;
-    text-align: justify;
-    margin-bottom: 1.5em;
+.container-imagem h3 {
+    color: #343a40;
+    font-size: 1.1rem;
+    margin-top: 10px;
 }
-
-.descritivo h3 {
-    color: #00CED1;
-    font-size: 1.4em;
-    font-weight: 700;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #f0f0f0;
-    padding-bottom: 5px;
+.container-imagem a {
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s;
 }
-
-.descritivo ul {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 1.5em;
+.container-imagem a:hover {
+    color: #0056b3;
 }
-
-.descritivo ul li {
-    position: relative;
-    padding-left: 20px;
-    font-size: 1.1em;
-    line-height: 1.8;
-    color: #444444;
-}
-
-.descritivo ul li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #8A2BE2;
-    font-size: 1.2em;
-    line-height: 1.2;
-}
-/* ======================= SOBRE ============================== */
