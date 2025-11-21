@@ -1,0 +1,246 @@
+@media (max-width: 600px) {
+   header {
+        flex-direction: column;
+        padding: 15px 3%;
+    }
+
+    .logoCompleto {
+        margin-bottom: 15px;
+    }
+
+    .logoCompleto img {
+        width: 15%;
+    }
+
+    .logoCompleto h1 {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    nav a {
+        margin-right: 0;
+        padding: 6px 10px;
+        font-size: 0.9em;
+    }
+
+    /* --- CONTATO/FAQ --- */
+    .mainContato, .mainFaq {
+        padding: 30px 0;
+    }
+
+    .contato, .perguntas {
+        width: 95%;
+        margin: 0 15px;
+    }
+
+    .contato {
+        padding: 30px 20px;
+    }
+
+    .perguntas {
+        padding: 20px;
+        max-height: 75vh;
+    }
+
+    .tituloContato h1, .tituloFaq h1 {
+        font-size: 2em;
+    }
+
+    .perguntas h3 {
+        font-size: 1em;
+        padding: 12px 15px;
+    }
+
+    .perguntas p {
+        padding: 10px 15px;
+        font-size: 0.95em;
+    }
+
+    /* --- FUTURIZA/INDEX --- */
+    .faleComAtendente {
+        min-height: 70vh;
+        padding: 60px 20px;
+    }
+
+    .faleComAtendente h1 {
+        font-size: 2.5em;
+    }
+
+    .faleComAtendente h3 {
+        font-size: 1.1em;
+    }
+
+    .faleComAtendente a {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    .articleFuturiza {
+        margin: 40px auto;
+    }
+
+    .articleFuturiza h2 {
+        font-size: 1.6em;
+        padding: 0 15px;
+    }
+
+    .articleFuturiza h4 {
+        font-size: 0.9em;
+        padding: 0 15px;
+    }
+
+    .rolagem-fotos {
+        padding: 0 15px;
+    }
+
+    .rolagem-fotos img {
+        width: 250px;
+        height: 160px;
+        margin-right: 15px;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+        padding: 0 15px;
+    }
+
+    .inovaçao-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .quadros-inovacao {
+        min-height: 150px;
+        padding: 15px 8px;
+    }
+
+    .quadros-inovacao img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quadros-inovacao h4 {
+        font-size: 1em;
+    }
+
+    .mainIndex section:first-child {
+        min-height: 70vh;
+        padding: 60px 20px;
+    }
+
+    .mainIndex section:first-child h1 {
+        font-size: 2.5em;
+    }
+
+    .mainIndex section:first-child h4 {
+        font-size: 1.1em;
+    }
+
+    .quadros-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .quadros {
+        padding: 20px;
+    }
+
+    .quadros img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* --- INTEGRANTES --- */
+    .container-imagem {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .texto h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .membro-1, .membro-2, .membro-3 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .membro-1 img, .membro-2 img, .membro-3 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* --- LOGIN --- */
+    .mainLogin {
+        flex-direction: column;
+        width: 95%;
+        margin: 20px auto;
+        min-height: auto;
+    }
+
+    .mainLogin section:first-child {
+        padding: 30px 20px;
+        min-height: 250px;
+    }
+
+    .mainLogin section:first-child h1 {
+        font-size: 2em;
+    }
+
+    .mainLogin section:first-child h2 {
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
+
+    .login-container {
+        padding: 30px 20px;
+    }
+
+    .login-titulo {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .ligar-buttons {
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .ligar-buttons button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    /* --- SOBRE --- */
+    .mainSobre {
+        padding: 10px 0;
+    }
+
+    .articleSobre {
+        margin: 20px auto;
+        padding: 30px 20px;
+    }
+
+    .articleSobre h2 {
+        font-size: 1.6em;
+    }
+
+    .descritivo p, .descritivo ul li {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .descritivo h3 {
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+}
